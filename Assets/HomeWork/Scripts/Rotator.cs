@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Sphere : MonoBehaviour
+public class Rotator : MonoBehaviour
 {
     [SerializeField] private float _rotateSpeed;
 
-    void Update()
+    private void Update()
     {
         var rotate = new Vector3 (0, _rotateSpeed , 0);
 
